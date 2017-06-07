@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @personaje.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @personaje.age %>
+</p>
+
+<p>
+  <strong>Creator:</strong>
+  <%= @personaje.creator %>
+</p>
+
+<%= link_to 'Edit', edit_personaje_path(@personaje), class:'button radius success' %> |
+<%= link_to 'Back', personajes_path, class:'button radius alert' %>
